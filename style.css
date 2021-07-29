@@ -1,9 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Qahiri&display=swap');
+
+
+
+/*common css*/
+
 *{
 	font-family: 'Poppins', sans-serif;
 	margin: 0;
 	padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 a,a:hover{
@@ -21,7 +31,7 @@ h2{
 }
 
 h5{
-	font-size: 28px;
+	font-size: 27px;
 	font-weight: 600;
 }
 
@@ -49,9 +59,23 @@ section{
 
 /*navbar start*/
 
+
+
 header{
 	background: #264653;
 }
+
+
+nav{
+	background: #264653;
+}
+
+.navbar-brand{
+	color: #E76F51;
+	font-size: 40px;
+ font-family: 'Qahiri', sans-serif;
+}
+
 
 .nav-link{
 	color: #fff;
@@ -199,6 +223,35 @@ header{
 }
 
 
+/*faq end*/
+
+/*get start*/
+
+
+#get .card-text{
+	padding: 0;
+}
+/*get end*/
+
+/*hidden start*/
+
+.hidden_info{
+	text-align: left;
+}
+
+/*hidden end*/
+
+
+/*hellmet start*/
+
+#hellmet .card-text{
+	padding: 0;
+}
+
+/*hellmet end*/
+
+
+
 /*responsive*/
 
 @media (max-width: 576px) {
@@ -214,6 +267,8 @@ h5{
 .login_btn{
 	margin-left: 0px;
 }
+
+
 
 /*banner*/
 #banner {
