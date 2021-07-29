@@ -1,3 +1,4 @@
+/*google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Qahiri&display=swap');
@@ -13,7 +14,7 @@
 }
 
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 a,a:hover{
@@ -57,7 +58,7 @@ section{
 /* ===== header start ===== */
 
 
-/*navbar start*/
+/*header start*/
 
 
 
@@ -73,7 +74,7 @@ nav{
 .navbar-brand{
 	color: #E76F51;
 	font-size: 40px;
- font-family: 'Qahiri', sans-serif;
+	font-family: 'Qahiri', sans-serif;
 }
 
 
@@ -88,7 +89,7 @@ nav{
 
 
 
-/*navbar end*/
+/*header end*/
 
 
 /*banner start*/
@@ -115,6 +116,8 @@ nav{
 
 /*banner end*/
 
+
+
 /*featured start*/
 
 .featured_text p{
@@ -138,11 +141,12 @@ nav{
 }
 
 .img_gray img{
-	 filter: gray;
+	filter: gray;
 	filter: grayscale(1);
 	-webkit-filter: grayscale(1);
 }
 /*featured end*/
+
 
 
 /*latest start*/
@@ -219,11 +223,13 @@ nav{
 }
 
 #collapseOne p {
-    color: #7E848C;
+	color: #7E848C;
 }
 
 
 /*faq end*/
+
+
 
 /*get start*/
 
@@ -239,7 +245,8 @@ nav{
 	text-align: left;
 }
 
-/*hidden end*/
+/*get end*/
+
 
 
 /*hellmet start*/
@@ -256,93 +263,99 @@ nav{
 
 @media (max-width: 576px) {
 
-h2{
-	font-size: 35px;
-}
+	h2{
+		font-size: 35px;
+	}
 
-h5{
-	font-size: 24px;
-}
+	h5{
+		font-size: 24px;
+	}
 
-.login_btn{
-	margin-left: 0px;
-}
+	.login_btn{
+		margin-left: 0px;
+	}
 
 
 
-/*banner*/
-#banner {
-    padding-top: 25px;
-}
-.banner_text_top{
-	font-size: 16px;
-	line-height: 22px;
-	padding-right: 20px;
-}	
+	/*banner*/
 
-.banner_text_bottom{
-	font-size: 16px;
-	line-height: 24px;
-	padding-right: 35px;
-}	
+	#banner {
+		padding-top: 25px;
+	}
+	.banner_text_top{
+		font-size: 16px;
+		line-height: 22px;
+		padding-right: 20px;
+	}	
 
-#banner img{
-	width: 320px;
-	line-height: 260px;
-	transform: translateX(-50%);
-	left: 50%;
-	position: relative;
-	margin: 30px 0;
-}
+	.banner_text_bottom{
+		font-size: 16px;
+		line-height: 24px;
+		padding-right: 35px;
+	}	
 
-/*featured*/
+	#banner img{
+		width: 320px;
+		line-height: 260px;
+		transform: translateX(-50%);
+		left: 50%;
+		position: relative;
+		margin: 30px 0;
+	}
 
-.img_gray img{
-	margin: 90px 0;
-}
+	/*featured*/
 
-.feature_bike {
-    margin: 40px 0;
-}
+	.img_gray img{
+		margin: 90px 0;
+	}
 
-/*latest*/
+	.feature_bike {
+		margin: 40px 0;
+	}
 
-#latest h2{
-	text-align: left;
-}
+	/*latest*/
 
-.card{
-	margin: 10px 0;
-}
+	#latest h2{
+		text-align: left;
+	}
 
-#latest p {
-    font-size: 14px;
-    line-height: 28px;
-}
+	.card{
+		margin: 10px 0;
+	}
 
-/*clients*/
+	#latest p {
+		font-size: 14px;
+		line-height: 28px;
+	}
 
-#clients h2{
-	padding: 0 60px;
-}
+	/*clients*/
 
-.card-text {
-    padding: 0 50px;
-}
+	#clients h2{
+		padding: 0 60px;
+	}
 
-/*faq*/
+	.card-text {
+		padding: 0 50px;
+	}
 
-#faq img{
-	width: 100%;
-}
+	/*faq*/
 
-.accordion_que {
-    font-size: 16px;
-}
+	#faq img{
+		width: 100%;
+	}
 
-#collapseOne p {
-    color: #7E848C;
-    font-size: 14px;
-}
+	.accordion_que {
+		font-size: 16px;
+	}
+
+	#collapseOne p {
+		color: #7E848C;
+		font-size: 14px;
+	}
+
+	#faq h2 {
+		padding: 0 25px;
+	}
+
 
 }
